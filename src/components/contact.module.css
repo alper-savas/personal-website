@@ -1,0 +1,81 @@
+.container {
+  font-size: 2.2rem;
+  width: 80vw;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  left: 3rem;
+  width: 28%;
+  display: block;
+  height: 5px;
+  background-color: #cda8ed;
+  bottom: -8px;
+}
+
+.contact {
+  display: flex;
+  gap: 15rem;
+}
+
+.iconContainer img {
+  height: 40rem;
+  width: 40rem;
+}
+
+.personalContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.personalContainer p {
+  color: #777;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.personal img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.personalInfo {
+  display: flex;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.button {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 1.4rem 4rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  border: 3px solid rgba(0, 0, 0, 0.739);
+  cursor: pointer;
+  transition: all 400ms;
+  width: 20rem;
+  margin-top: 2rem;
+  color: #222;
+}
+
+.button:hover {
+  background-color: #cda8ed;
+  color: #fff;
+}

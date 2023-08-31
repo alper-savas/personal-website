@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
+.name {
+  font-family: "Rancho", cursive;
+  font-size: 4rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 2rem 10rem;
+  letter-spacing: 1px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+a:hover {
+  color: #cb8ce3;
+}

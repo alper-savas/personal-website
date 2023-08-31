@@ -1,0 +1,139 @@
+.container {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+.container h2 {
+  position: relative;
+}
+
+.container h2::after {
+  content: "";
+  position: absolute;
+  right: -3rem;
+  width: 100%;
+  display: block;
+  height: 5px;
+  background-color: #cda8ed;
+  bottom: -8px;
+}
+
+.projects {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: #f6f3fc;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.247);
+  transition: all 500ms;
+  letter-spacing: 0.3px;
+  line-height: 3.2rem;
+  gap: 3rem;
+}
+
+.project:hover {
+  transform: scale(101%);
+  transition: all 500ms;
+}
+
+.projectDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1rem;
+  margin-left: 4rem;
+  padding-right: 5rem;
+}
+
+.projectDesc h3 {
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.projectDesc p {
+  color: #555;
+}
+
+.project img {
+  height: auto;
+  width: auto;
+  max-width: 65rem;
+  max-height: 65rem;
+  transform: scale(107%);
+}
+
+.redo {
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+  padding-top: 1rem;
+}
+
+.stack {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stackItem {
+  padding: 1rem;
+  border: 1.5px solid #555;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.clone {
+  display: flex;
+  width: 70vw;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  line-height: 3rem;
+  gap: 5rem;
+  background-color: #f6f3fc;
+}
+
+.cloneImg img {
+  height: auto;
+  width: auto;
+  max-width: 45rem;
+  max-height: 45rem;
+  transform: scale(120%);
+}
+
+.cloneProject {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.247);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: all 500ms;
+}
+
+.cloneProject:hover {
+  transform: scale(101%);
+  transition: all 500ms;
+}
+
+.cloneDesc {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.cloneDesc h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
