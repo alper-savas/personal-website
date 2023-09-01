@@ -10,15 +10,20 @@ const Footer = () => {
     <footer className={classes.footer}>
       <div className={classes.icons}>
         <a
-          href="mailto:alpersavas1998@gmail.com"
+          href="mailto:alpersavas.dev@gmail.com"
           className={classes.icon}
           target="_blank"
           rel="noreferrer"
         >
-          <img src={mail} alt="icon" />
+          <img src={mail} alt="Mail icon" />
         </a>
-        <a href="/" className={classes.icon} target="_blank" rel="noreferrer">
-          <img src={linkedin} alt="icon" />
+        <a
+          href="https://www.linkedin.com/in/alper-savas-000x/"
+          className={classes.icon}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedin} alt="Linkedin icon" />
         </a>
         <a
           href="https://github.com/alper-savas"
@@ -26,7 +31,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={github} alt="icon" />
+          <img src={github} alt="Github icon" />
         </a>
         <a
           href="https://www.codewars.com/users/Alpersavas"
@@ -34,7 +39,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={codewars} alt="icon" />
+          <img src={codewars} alt="Codewars icon" />
         </a>
       </div>
       <div>

@@ -1,5 +1,6 @@
 import "./App.css";
 import { Fragment } from "react";
+import { Helmet } from "react-helmet";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Skills from "./components/skills";
@@ -10,6 +11,10 @@ import Footer from "./components/footer";
 function App() {
   return (
     <Fragment>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Alper Savas</title>
+      </Helmet>
       <Navbar />
       <Hero />
       <Skills />

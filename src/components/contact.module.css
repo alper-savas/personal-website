@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
 .container {
   font-size: 2.2rem;
   width: 80vw;
@@ -36,7 +38,6 @@
 .personalContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
 .personalContainer p {
@@ -70,12 +71,16 @@
   border: 3px solid rgba(0, 0, 0, 0.739);
   cursor: pointer;
   transition: all 400ms;
-  width: 20rem;
-  margin-top: 2rem;
   color: #222;
 }
 
 .button:hover {
   background-color: #cda8ed;
   color: #fff;
+}
+
+.buttonLink {
+  display: inline-block;
+  width: 15rem;
+  margin-top: 2rem;
 }

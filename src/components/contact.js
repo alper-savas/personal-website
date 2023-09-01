@@ -9,7 +9,7 @@ const Contact = () => {
     <section className={classes.container} id="contact">
       <div className={classes.contact}>
         <div className={classes.iconContainer}>
-          <img src={contact} alt="Pin" />
+          <img src={contact} alt="Contact me" />
         </div>
         <div className={classes.personalContainer}>
           <h2 className={classes.header}>Contact me</h2>
@@ -17,7 +17,10 @@ const Contact = () => {
             Whether you have a question or want to say hi, feel free to get in
             touch.
           </p>
-          <a href="mailto:alpersavas1998@gmail.com">
+          <a
+            href="mailto:alpersavas.dev@gmail.com"
+            className={classes.buttonLink}
+          >
             <button className={classes.button}>Contact</button>
           </a>
           <div className={classes.personalInfo}>
@@ -26,8 +29,8 @@ const Contact = () => {
               <p className={classes.icon}>Berlin</p>
             </div>
             <div className={classes.personal}>
-              <img src={mail} alt="Pin" />
-              <p className={classes.icon}>alpersavas@gmail.com</p>
+              <img src={mail} alt="Mail" />
+              <p className={classes.icon}>alpersavas.dev@gmail.com</p>
             </div>
           </div>
         </div>

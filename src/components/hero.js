@@ -17,22 +17,31 @@ const Hero = () => {
           Freie Universität Berlin.
         </h6>
         <div className={classes.buttons}>
-          <button className={`${classes.button} ${classes.contact}`}>
-            Resume
-          </button>
-          <button className={classes.button}>Contact</button>
+          <a href="https://drive.google.com/file/d/1DncQrt6vUdzvse_R4dk0Dbufa6QHrm6M/view?usp=drive_link">
+            <button className={`${classes.button} ${classes.contact}`}>
+              Resume
+            </button>
+          </a>
+          <a href="mailto:alpersavas.dev@gmail.com">
+            <button className={classes.button}>Contact</button>
+          </a>
         </div>
       </div>
       <div className={classes.icons}>
         <a
-          href="mailto:alpersavas1998@gmail.com"
+          href="mailto:alpersavas.dev@gmail.com"
           className={classes.icon}
           target="_blank"
           rel="noreferrer"
         >
           <img src={mail} alt="icon" />
         </a>
-        <a href="/" className={classes.icon} target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/alper-savas-000x/"
+          className={classes.icon}
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={linkedin} alt="icon" />
         </a>
         <a
