@@ -66,7 +66,7 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className={classes.skill}>
+        <div className={`${classes.skill} ${classes.other}`}>
           <h4>Other</h4>
           <div className={classes.icons}>
             <img

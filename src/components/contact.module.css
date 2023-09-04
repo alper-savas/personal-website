@@ -30,6 +30,10 @@
   gap: 15rem;
 }
 
+.iconContainer {
+  display: flex;
+  justify-content: center;
+}
 .iconContainer img {
   height: 40rem;
   width: 40rem;
@@ -50,7 +54,6 @@
   justify-content: flex-start;
   gap: 1rem;
 }
-
 .personal img {
   height: 2.4rem;
   width: 2.4rem;
@@ -83,4 +86,31 @@
   display: inline-block;
   width: 15rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 66rem) {
+  .container {
+    font-size: 2rem;
+  }
+
+  .personalInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media (max-width: 51rem) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .personalInfo {
+    flex-direction: row;
+    gap: 5rem;
+  }
+  .button {
+    font-size: 2rem;
+    padding: 1.2rem 3.6rem;
+  }
 }

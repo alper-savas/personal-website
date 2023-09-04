@@ -17,7 +17,11 @@ const Hero = () => {
           Freie Universität Berlin.
         </h6>
         <div className={classes.buttons}>
-          <a href="https://drive.google.com/file/d/1DncQrt6vUdzvse_R4dk0Dbufa6QHrm6M/view?usp=drive_link">
+          <a
+            href="https://drive.google.com/file/d/1nC9jCjeFPRt1MdTExu5AMRkUqgvlkp3O/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className={`${classes.button} ${classes.contact}`}>
               Resume
             </button>

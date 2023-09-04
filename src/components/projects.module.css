@@ -137,3 +137,35 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 82rem) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project img {
+    height: auto;
+    width: auto;
+    max-width: 100rem;
+    max-height: 100rem;
+    transform: scale(107%);
+  }
+
+  .projectDesc {
+    padding-bottom: 2rem;
+  }
+}
+
+/* @media (max-width: 62rem) {
+  .clone {
+    flex-direction: column;
+  }
+
+  .cloneImg img {
+    height: auto;
+    width: auto;
+    max-width: 60rem;
+    max-height: 60rem;
+    transform: scale(120%);
+  }
+} */

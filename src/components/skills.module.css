@@ -60,3 +60,29 @@
 .icons img {
   cursor: pointer;
 }
+
+@media (max-width: 66rem) {
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .other {
+    transform: translateX(22rem);
+  }
+}
+
+@media (max-width: 56rem) {
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .icons {
+    grid-template-rows: 1fr;
+  }
+
+  .other {
+    transform: translateX(0);
+  }
+}
